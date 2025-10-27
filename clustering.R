@@ -3,7 +3,7 @@ library(ggplot2)
 library(dbscan)
 
 # Charger les données
-data <- read.csv("/Users/camilleauvity/Desktop/ECOLE/Ecole des mines/MAJEURE DATA/UP3 Machine Learning/Clustering/dataset_diabetes.csv", 
+data <- read.csv("/Users/camilleauvity/Desktop/Machine Learning/Clustering/dataset_diabetes.csv", 
                  header = TRUE, sep = ",")
 
 # Sélectionner les variables numériques pour le clustering
